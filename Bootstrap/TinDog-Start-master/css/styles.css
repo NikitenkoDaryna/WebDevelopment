@@ -1,0 +1,180 @@
+/* Containers */
+.container-fluid {
+  padding: 3% 15% 10%;
+}
+/* Sections */
+.coloured-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
+}
+/* Navbar-section */
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Ubuntu";
+}
+.nav-item {
+  padding: 0px 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+.rotated {
+  padding: 70px 20px 0px 60px;
+  transform: rotate(25deg);
+  height: 700px;
+  position: absolute;
+}
+/* Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+/* Title-section */
+#title {
+  text-align: left;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+.feature-box {
+  padding: 5%;
+}
+.row-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+.icon {
+  padding-bottom: 15px;
+  color: #ef8172;
+}
+
+/* Testimonials section */
+
+#testimonials {
+  padding: 3% 15%;
+  background-color: #ef8172;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+p {
+  color: #8f8f8f;
+  font-family: "Ubuntu";
+  font-weight: 600;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+/* Press-section */
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#press {
+  background-color: #ef8172;
+  /* text-align: center; */
+  padding-bottom: 0;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+#pricing {
+  padding: 100px;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.cards {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  .rotated {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: left;
+  }
+}
+
+/* Cta-section */
+#cta {
+  padding: 12% 21%;
+}
+.cta-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.cta-button {
+  margin: 5% 7% 5% 0%;
+}
+.button-box {
+  position: relative;
+  left: 27%;
+}
+/* Footer-section */
+#footer {
+  padding: 6% 15%;
+}
+.copyright {
+  padding-top: 30px;
+}
+@media (max-width: 1015px) {
+  .btn {
+    display: block;
+
+    text-align: left;
+  }
+}
+.attachment {
+  margin: 5px;
+}

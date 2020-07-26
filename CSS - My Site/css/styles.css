@@ -1,0 +1,147 @@
+
+body{
+margin: 0;
+text-align: center;
+font-family: 'Merriweather', serif;
+}
+
+h1{
+  font-size: 5.625rem;
+margin: 50px auto 0 auto;
+font-family: 'Sacramento', cursive;
+color: #F29C94;
+}
+h2{
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #F29C94;
+  font-weight: normal;
+  padding-top: 90px;
+}
+h3{
+  color: #F2CB9B;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-container{
+  background-color:#F2D8D3;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+  position: relative;
+  padding-top: 100px;
+}
+#profile-photo{
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+}
+.img-computer{
+  width: 25%;
+float:left;
+margin-right: 30px;
+}
+.img-coffee{
+  width:25%;
+float:right;
+margin-left: 30px;
+}
+.pro{
+  text-decoration: underline;
+}
+.profile{
+margin:auto;
+}
+.describing-messages{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+  border-color:#A6796F;
+  border-width: 5px;
+  width: 3%;
+
+}
+.skills{
+  margin-top: 90px;
+}
+ .top-cloud{
+position:absolute;
+display: inline-block;
+top:10%;
+right:20%;
+}
+.bottom-cloud{
+  position:absolute;
+
+}
+.profile{
+  margin:100px auto 100px auto;
+  width:50%;
+  text-align: center;
+  line-height: 2;
+}
+.skill-row{
+  margin:100px auto 100px auto;
+width:50%;
+  text-align: left;
+  line-height: 2;
+}
+.contact-messages{
+  width: 40%;
+  margin: 40px auto 60px;
+  padding-bottom: 10px;
+}
+
+.bottom-container{
+  background-color:#F2D8D3;
+padding: 50px 0 20px;
+
+   }
+.contact-me{
+  padding-bottom: 90px;
+}
+   .btn {
+     background:linear-gradient(to bottom, #F25041 5%,  #D93E3A 100%);
+     background-color:#F25041;
+     border-radius:8px;
+     border:1px solid #D93E3A;
+     display:inline-block;
+     cursor:pointer;
+     color:#ffffff;
+     font-family:Arial;
+     font-size:20px;
+     padding:16px 31px;
+     text-decoration:none;
+     text-shadow:0px 1px 0px #8D211F;
+
+
+}
+.btn:hover {
+background:linear-gradient(to bottom,#F25C05 5%, #F24C3D 100%);
+background-color:#F25C05;
+}
+.btn:active {
+ position:relative;
+ top:1px;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size:0.8rem;
+  margin: 25px 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+a{
+  color: #CFAEA0;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
